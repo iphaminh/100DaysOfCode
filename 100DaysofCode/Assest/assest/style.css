@@ -72,7 +72,16 @@ header {
     color: rgb(122, 170, 154);
 }
 
+/* My 100 Space paragraph and Size */
+.art {
+    font-size: 45px;
+    line-height: 47px;
+}
 .content {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-right: 40%;
     width: 1200px;
     height: auto;
     margin: auto;
@@ -90,21 +99,42 @@ header {
     padding: 25px 0 15px;
 }
 
+/* Button box size */
 button {
-    margin: 10px;
+    background-color: rgb(174, 224, 105);
+    padding: 4px;
+    width: 25%;
+    margin: 30px 20px;
 }
 
-.content .ct a {
+/* sizing button text and boxing center */
+button a {
+    background-color: rgb(174, 224, 105);
+    font-size: 25px;
+    color:rgb(65, 59, 152);
+    font-family: 
+    margin-left: auto;
+    margin-right: auto;
+} 
+/* boxing and sizing for h2 and p */
+.content h2 p {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3px 5px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: none;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 20px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
 }
   
 
